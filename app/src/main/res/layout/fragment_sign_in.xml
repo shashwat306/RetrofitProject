@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/dark_blue">
+
+    <EditText
+        android:id="@+id/eduname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/username"
+        android:imeOptions="actionNext"
+        style="@style/CustomEditText" />
+
+    <EditText
+        android:id="@+id/edpswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint= "@string/password"
+        android:inputType="textPassword"
+        android:imeOptions="actionDone"
+       style="@style/CustomEditText" />
+
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sign_in"
+        android:backgroundTint="@color/light_yellow"
+        android:textColor="@color/dark_blue"
+        style="@style/CustomButton"/>
+
+
+
+    <TextView
+        android:id="@+id/txtReset"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset My Password"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:layout_marginTop="30dp"/>
+</LinearLayout>

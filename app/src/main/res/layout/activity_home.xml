@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/darker_gray"
+    tools:context=".HomeActivity">
+
+
+    <TextView
+        android:id="@+id/txtTag"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO ,"
+        android:textSize="30sp"
+        android:layout_marginTop="30dp"
+        android:layout_marginStart="30dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="HELLO"
+        android:textSize="25sp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/txtTag"
+        android:textColor="@color/white"
+        />
+
+    <Button
+        android:id="@+id/btnCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:backgroundTint="@color/dark_gray"
+        android:text="Category" />
+
+    <Button
+        android:id="@+id/btnSubCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Sub-Category"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnCategory"
+        android:backgroundTint="@color/dark_gray"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <Button
+        android:id="@+id/btnProduct"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Product"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnSubCategory"
+        android:backgroundTint="@color/dark_gray"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+    <Button
+        android:id="@+id/btnCatalog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Catalog"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnProduct"
+        android:backgroundTint="@color/dark_gray"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/btnCatalog"
+        android:backgroundTint="@color/dark_gray"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">RetrofitProject</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="sign_in">Sign In</string>
+    <string name="firstname">FirstName</string>
+    <string name="last_name">Last Name</string>
+    <string name="email_address">Email Address</string>
+    <string name="welcome_back">Welcome Back</string>
+    <string name="log_in_to_your_account_to_get_an_update">Log in to your account to get an update</string>
+    <string name="hello">Hello</string>
+    <string name="register_to_create_new_your_account">Register to create new your account</string>
+    <string name="edit">EDIT</string>
+    <string name="resource_edit">EDIT</string>
+    <string name="addbtn">ADD</string>
+</resources>
